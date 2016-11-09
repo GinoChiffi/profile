@@ -1,0 +1,69 @@
+/* Here goes your CSS */
+body {
+  background-image: url('https://www.smashingmagazine.com/images/nature-wallpapers/22.jpg');
+  background-size: cover;
+  margin:0 auto;
+}
+
+.container {
+  margin: 60px auto;
+}
+
+.card {
+background-color: white;
+width: 500px;
+text-align: center;
+padding: 20px;
+margin: 30px auto;
+border-radius: 4px;
+box-shadow: 1px 1px gray;
+}
+
+.card img {
+width: 25%;
+height: auto;
+border-radius: 100%;
+border-style: solid 1px gray;
+box-shadow: 1px 1px black;
+}
+
+.card img:hover{
+filter: blur(5px);
+}
+
+
+table {
+  margin: 0 auto;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 2px 50px;
+  font-size: 30px;
+}
+
+h1 {
+  color: #DD5555;
+  font-family: arial;
+  font-size: 20px;
+  line-height: 50%;
+}
+
+h2 {
+color: #7D7D87;
+font-family: arial;
+font-size: 15px;
+}
+
+a {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #E84A5F;
+}
